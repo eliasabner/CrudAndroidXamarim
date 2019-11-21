@@ -76,7 +76,7 @@ namespace CRUDANDROIDMYSQL_
 
             //Desconpactar o json
             var i = JsonConvert.DeserializeObject<string>(serResp);
-            if(i == "cert")
+            if(i == "certo")
             {
                 Toast.MakeText(this, "Sucesso", ToastLength.Short).Show();
             }
@@ -84,6 +84,11 @@ namespace CRUDANDROIDMYSQL_
             {
                 Toast.MakeText(this, "Erro", ToastLength.Short).Show();
             }
+
+            //limpar os campos
+            nome.Text = String.Empty;
+            email.Text = String.Empty;
+            senha.Text = String.Empty;
 
             //Console.WriteLine(" - " + serResp);
         }
