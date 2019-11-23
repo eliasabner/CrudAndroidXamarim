@@ -7,7 +7,7 @@
         <ListView
           android:minHeight="25px"
           android:minWidth="25px"
-          android:background="=@color/white"
+          android:background="@color/white"
           android:layout_height="match_parent"
           android:id="@+id/lvsSelect"
         />

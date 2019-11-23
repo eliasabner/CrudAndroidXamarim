@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Create.cs" />
+    <Compile Include="listViewBaseAdapter.cs" />
     <Compile Include="LOGIN.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MENU.cs" />

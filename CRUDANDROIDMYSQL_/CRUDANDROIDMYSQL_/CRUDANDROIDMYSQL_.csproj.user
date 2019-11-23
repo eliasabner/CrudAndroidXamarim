@@ -4,5 +4,6 @@
     <SelectedDevice>Motorola moto g%286%29 plus</SelectedDevice>
     <DefaultDevice>Noite</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

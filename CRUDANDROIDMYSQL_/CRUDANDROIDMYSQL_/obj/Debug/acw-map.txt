@@ -2,6 +2,10 @@ CRUDANDROIDMYSQL_.Create, CRUDANDROIDMYSQL_;md5fd0319144f93cbe5f43eb1b2fe735d69.
 CRUDANDROIDMYSQL_.Create, CRUDANDROIDMYSQL_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd0319144f93cbe5f43eb1b2fe735d69.Create
 CRUDANDROIDMYSQL_.Create;md5fd0319144f93cbe5f43eb1b2fe735d69.Create
 crudandroidmysql_.Create;md5fd0319144f93cbe5f43eb1b2fe735d69.Create
+CRUDANDROIDMYSQL_.listViewBaseAdapter, CRUDANDROIDMYSQL_;md5fd0319144f93cbe5f43eb1b2fe735d69.listViewBaseAdapter
+CRUDANDROIDMYSQL_.listViewBaseAdapter, CRUDANDROIDMYSQL_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd0319144f93cbe5f43eb1b2fe735d69.listViewBaseAdapter
+CRUDANDROIDMYSQL_.listViewBaseAdapter;md5fd0319144f93cbe5f43eb1b2fe735d69.listViewBaseAdapter
+crudandroidmysql_.listViewBaseAdapter;md5fd0319144f93cbe5f43eb1b2fe735d69.listViewBaseAdapter
 CRUDANDROIDMYSQL_.LOGIN, CRUDANDROIDMYSQL_;md5fd0319144f93cbe5f43eb1b2fe735d69.LOGIN
 CRUDANDROIDMYSQL_.LOGIN, CRUDANDROIDMYSQL_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd0319144f93cbe5f43eb1b2fe735d69.LOGIN
 CRUDANDROIDMYSQL_.LOGIN;md5fd0319144f93cbe5f43eb1b2fe735d69.LOGIN
@@ -14,3 +18,7 @@ CRUDANDROIDMYSQL_.MENU, CRUDANDROIDMYSQL_;md5fd0319144f93cbe5f43eb1b2fe735d69.ME
 CRUDANDROIDMYSQL_.MENU, CRUDANDROIDMYSQL_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd0319144f93cbe5f43eb1b2fe735d69.MENU
 CRUDANDROIDMYSQL_.MENU;md5fd0319144f93cbe5f43eb1b2fe735d69.MENU
 crudandroidmysql_.MENU;md5fd0319144f93cbe5f43eb1b2fe735d69.MENU
+CRUDANDROIDMYSQL_.Select, CRUDANDROIDMYSQL_;md5fd0319144f93cbe5f43eb1b2fe735d69.Select
+CRUDANDROIDMYSQL_.Select, CRUDANDROIDMYSQL_, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fd0319144f93cbe5f43eb1b2fe735d69.Select
+CRUDANDROIDMYSQL_.Select;md5fd0319144f93cbe5f43eb1b2fe735d69.Select
+crudandroidmysql_.Select;md5fd0319144f93cbe5f43eb1b2fe735d69.Select

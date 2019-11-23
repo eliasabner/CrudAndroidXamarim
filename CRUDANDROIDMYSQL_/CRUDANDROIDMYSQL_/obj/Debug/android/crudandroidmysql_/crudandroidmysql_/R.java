@@ -307,10 +307,12 @@ public final class R {
         public static final int yellowA700=0x7f0400b7;
     }
     public static final class drawable {
-        public static final int delete=0x7f020000;
-        public static final int select_=0x7f020001;
-        public static final int update=0x7f020002;
-        public static final int user=0x7f020003;
+        public static final int baseline_delete_forever_black_18dp=0x7f020000;
+        public static final int baseline_edit_black_18dp=0x7f020001;
+        public static final int delete=0x7f020002;
+        public static final int select_=0x7f020003;
+        public static final int update=0x7f020004;
+        public static final int user=0x7f020005;
     }
     public static final class id {
         public static final int btCad=0x7f070004;
@@ -322,7 +324,13 @@ public final class R {
         public static final int campoSenha=0x7f070002;
         public static final int create=0x7f070007;
         public static final int delete=0x7f070009;
+        public static final int imDel=0x7f07000e;
+        public static final int imgDel=0x7f07000f;
+        public static final int imgEdit=0x7f07000d;
+        public static final int lvsSelect=0x7f070010;
         public static final int select=0x7f070008;
+        public static final int txtId=0x7f07000b;
+        public static final int txtNome=0x7f07000c;
         public static final int update=0x7f07000a;
     }
     public static final class layout {
@@ -330,7 +338,8 @@ public final class R {
         public static final int login=0x7f030001;
         public static final int main=0x7f030002;
         public static final int menu=0x7f030003;
-        public static final int select=0x7f030004;
+        public static final int modelolistview=0x7f030004;
+        public static final int select=0x7f030005;
     }
     public static final class string {
         public static final int acesso=0x7f060003;

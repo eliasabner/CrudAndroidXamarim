@@ -826,16 +826,22 @@ namespace CRUDANDROIDMYSQL_
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int delete = 2130837504;
+			public const int baseline_delete_forever_black_18dp = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int select_ = 2130837505;
+			public const int baseline_edit_black_18dp = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int update = 2130837506;
+			public const int delete = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int user = 2130837507;
+			public const int select_ = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int update = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int user = 2130837509;
 			
 			static Drawable()
 			{
@@ -877,8 +883,26 @@ namespace CRUDANDROIDMYSQL_
 			// aapt resource value: 0x7f070009
 			public const int delete = 2131165193;
 			
+			// aapt resource value: 0x7f07000e
+			public const int imDel = 2131165198;
+			
+			// aapt resource value: 0x7f07000f
+			public const int imgDel = 2131165199;
+			
+			// aapt resource value: 0x7f07000d
+			public const int imgEdit = 2131165197;
+			
+			// aapt resource value: 0x7f070010
+			public const int lvsSelect = 2131165200;
+			
 			// aapt resource value: 0x7f070008
 			public const int select = 2131165192;
+			
+			// aapt resource value: 0x7f07000b
+			public const int txtId = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int txtNome = 2131165196;
 			
 			// aapt resource value: 0x7f07000a
 			public const int update = 2131165194;
@@ -909,7 +933,10 @@ namespace CRUDANDROIDMYSQL_
 			public const int MENU = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Select = 2130903044;
+			public const int ModeloListView = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Select = 2130903045;
 			
 			static Layout()
 			{
