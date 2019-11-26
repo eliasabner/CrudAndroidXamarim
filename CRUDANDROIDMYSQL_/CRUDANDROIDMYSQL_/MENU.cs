@@ -15,7 +15,7 @@ namespace CRUDANDROIDMYSQL_
     [Activity(Label = "MENU")]
     public class MENU : Activity
     {
-        TextView Create;
+        TextView Create,Select;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -24,11 +24,19 @@ namespace CRUDANDROIDMYSQL_
             SetContentView(Resource.Layout.MENU);
             // referencia
             Create = FindViewById<TextView>(Resource.Id.create);
+            Select = FindViewById<TextView>(Resource.Id.select);
 
             //evento
             Create.Click += Create_Click;
+            Select.Click += Select_Click;
 
         }
+
+        private void Select_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(Select));
+        }
+
         // chamar a tela  create
         private void Create_Click(object sender, EventArgs e)
         {

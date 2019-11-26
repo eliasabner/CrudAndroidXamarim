@@ -884,16 +884,13 @@ namespace CRUDANDROIDMYSQL_
 			public const int delete = 2131165193;
 			
 			// aapt resource value: 0x7f07000e
-			public const int imDel = 2131165198;
-			
-			// aapt resource value: 0x7f07000f
-			public const int imgDel = 2131165199;
+			public const int imgDel = 2131165198;
 			
 			// aapt resource value: 0x7f07000d
 			public const int imgEdit = 2131165197;
 			
-			// aapt resource value: 0x7f070010
-			public const int lvsSelect = 2131165200;
+			// aapt resource value: 0x7f07000f
+			public const int lsvSelect = 2131165199;
 			
 			// aapt resource value: 0x7f070008
 			public const int select = 2131165192;

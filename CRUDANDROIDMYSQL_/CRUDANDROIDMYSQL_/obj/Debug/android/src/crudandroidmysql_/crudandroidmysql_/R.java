@@ -324,10 +324,9 @@ public final class R {
         public static final int campoSenha=0x7f070002;
         public static final int create=0x7f070007;
         public static final int delete=0x7f070009;
-        public static final int imDel=0x7f07000e;
-        public static final int imgDel=0x7f07000f;
+        public static final int imgDel=0x7f07000e;
         public static final int imgEdit=0x7f07000d;
-        public static final int lvsSelect=0x7f070010;
+        public static final int lsvSelect=0x7f07000f;
         public static final int select=0x7f070008;
         public static final int txtId=0x7f07000b;
         public static final int txtNome=0x7f07000c;
