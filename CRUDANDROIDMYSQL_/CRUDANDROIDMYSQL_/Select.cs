@@ -74,23 +74,37 @@ namespace CRUDANDROIDMYSQL_
             //Mensagem
             alert.SetMessage("Deseja Excluir");
             //Evento
-            alert.SetPositiveButton("OK", (SenderAlert, args) => {
+            alert.SetPositiveButton("OK", async (SenderAlert, args) => {
                 //Toast.MakeText(this, value, ToastLength.Long).Show();
                 DeleteRegistro(int.Parse(value));
 
+                dado = await Resgistro();
+                adapter = new listViewBaseAdapter(this, dado);
+                adapter.SetEvento(this);
+                ltv.Adapter = adapter;
                 
             });
 
             alert.SetNegativeButton("NO", (SenderAlert, args) =>
             {
+                adapter = new listViewBaseAdapter(this, dado);
+                adapter.SetEvento(this);
+                ltv.Adapter = adapter;
 
             });
 
-            alert.Show(); 
+            alert.Show();
+            adapter.NotifyDataSetChanged();
         }
 
         public void onUpdate(string value)
         {
+            //pASSAR PARA A TELA led
+            Intent pagUpdate = new Intent(this, typeof(Update));
+            Bundle parametro = new Bundle();
+            parametro.PutString("id", value);
+            pagUpdate.PutExtras(parametro);
+            StartActivity(pagUpdate);
 
         }
 
@@ -131,7 +145,7 @@ namespace CRUDANDROIDMYSQL_
 
             //Saber a volta
             Console.WriteLine(" delete -> " + content);
-            //Descompactar a respota vindo servidor em forma de json para string
+            //Descompactar a respota vindo servidor em forma json para em forma dicionary
             Dictionary<string, string> servidor = JsonConvert.DeserializeObject<Dictionary<string, string>>(content);
 
             if (servidor["resp"] == "sucesso")

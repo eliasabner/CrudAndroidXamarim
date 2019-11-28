@@ -168,5 +168,6 @@ C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CR
 C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\obj\Debug\android\assets\System.Web.Services.pdb
 C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\obj\Debug\android\assets\System.Xml.pdb
+C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\obj\Debug\res\layout\update.xml
 C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\bin\Debug\CRUDANDROIDMYSQL_.dll
 C:\Users\elias.absantos\Desktop\Atualizado CrudMysqlAndroid\CRUDANDROIDMYSQL_\CRUDANDROIDMYSQL_\obj\Debug\linksrc\CRUDANDROIDMYSQL_.dll.mdb
