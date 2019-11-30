@@ -856,6 +856,9 @@ namespace CRUDANDROIDMYSQL_
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070011
+			public const int btAtualiza = 2131165201;
+			
 			// aapt resource value: 0x7f070004
 			public const int btCad = 2131165188;
 			

@@ -66,6 +66,7 @@
     <Compile Include="LOGIN.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MENU.cs" />
+    <Compile Include="Modelo\Atualiza.cs" />
     <Compile Include="Modelo\CreateInserir.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

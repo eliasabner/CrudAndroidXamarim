@@ -315,6 +315,7 @@ public final class R {
         public static final int user=0x7f020005;
     }
     public static final class id {
+        public static final int btAtualiza=0x7f070011;
         public static final int btCad=0x7f070004;
         public static final int btVoltar=0x7f070003;
         public static final int btlogin=0x7f070006;

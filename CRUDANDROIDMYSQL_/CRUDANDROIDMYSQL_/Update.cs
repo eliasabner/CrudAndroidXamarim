@@ -25,8 +25,15 @@ namespace CRUDANDROIDMYSQL_
         TextView id;
         EditText nome, email, senha;
         String id_us;
+        Button btAtualiza;
+
+
         //
         List<CreateInserir> campo = new List<CreateInserir>();
+        Atualiza atualizaRegistro = new Atualiza();
+
+
+
         protected override  async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -38,6 +45,7 @@ namespace CRUDANDROIDMYSQL_
             nome = FindViewById<EditText>(Resource.Id.campoNome);
             email = FindViewById < EditText >(Resource.Id.campoEmail);
             senha = FindViewById<EditText>(Resource.Id.campoSenha);
+            btAtualiza = FindViewById<Button>(Resource.Id.btAtualiza);
 
             //pegar o id do usuario que vem da tela listview
             id_us = Intent.GetStringExtra("id");
@@ -47,11 +55,47 @@ namespace CRUDANDROIDMYSQL_
 
             
             campo = await Registro(id_us);
+            
 
             //Preencher os campos
             nome.Text = campo[0].nome_us;
             email.Text = campo[0].email_us;
             senha.Text = campo[0].senha_us;
+
+            btAtualiza.Click += BtAtualiza_Click;
+        
+        }
+
+        private async void BtAtualiza_Click(object sender, EventArgs e)
+        {
+            atualizaRegistro.id_us = id.Text;
+            atualizaRegistro.nome_us = nome.Text;
+            atualizaRegistro.email_us = email.Text;
+            atualizaRegistro.senha_us = senha.Text;
+
+            string uri = "http://10.131.45.20:8081/CRUDANDROID/UpdateRegistro.php";
+
+            HttpClient solicita = new HttpClient();
+
+            var json = JsonConvert.SerializeObject(atualizaRegistro);
+
+            var conteudo = new StringContent(json, Encoding.UTF8, "application/json");
+            conteudo.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            //Enviar
+            HttpResponseMessage resultado = await solicita.PostAsync(uri, conteudo);
+
+            // saber se o estou conectado com o servidor
+            Console.WriteLine(" - - " + resultado.IsSuccessStatusCode);
+
+            var serResp = await resultado.Content.ReadAsStringAsync();
+
+            //var i = JsonConvert.DeserializeObject<string>(serResp);
+
+
+            Console.WriteLine(serResp);
+
+            Console.WriteLine(json);
         }
 
         // registro
@@ -97,6 +141,7 @@ namespace CRUDANDROIDMYSQL_
 
             return dadoConv;
         }
+
         
     }
 }

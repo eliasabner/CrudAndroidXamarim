@@ -71,9 +71,9 @@
                 android:text="VOLTAR"
                 android:textSize="20sp" />
             <Button
-                android:id="@+id/btCad"
+                android:id="@+id/btAtualiza"
                 android:layout_height="wrap_content"
-                android:text="Cadastar"
+                android:text="Atualizar"
                 android:textSize="20sp" />
         </TableRow>
     </TableLayout>
